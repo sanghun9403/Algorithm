@@ -10,4 +10,8 @@ function solution(dot) {
     //     answer = 4
     // }
     return dot[0] * dot[1] > 0 ? (dot[0] > 0 ? 1 : 3) : (dot[0] < 0 ? 2 : 4);
+    
+    //   const [num,num2] = dot;
+    //   const check = num * num2 > 0;
+    //   return num > 0 ? (check ? 1 : 4) : (check ? 3 : 2);
 }
