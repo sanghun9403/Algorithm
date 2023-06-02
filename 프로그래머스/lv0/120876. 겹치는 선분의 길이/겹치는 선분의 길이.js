@@ -1,14 +1,15 @@
 function solution(lines) {
-  const table = Array.from({ length: 200 }, () => new Set())
-  lines.forEach(([a, b], index) => {
-    for (let i = a; i < b; i++) {
-      table[i + 100].add(index)
+    let count = 0;
+    let length = new Array(200).fill(0);
+    for (i of lines) {
+        for(j = i[0]; j < i [1]; j++) {
+            length[j+100] += 1
+        }
     }
-  })
-
-  let count = 0
-  table.forEach((line) => {
-    if ([...line].length > 1) count++
-  })
-  return count
-}
+    for(i of length) {
+        if (i >= 2) {
+            count++
+        }
+    }
+    return count
+  }
