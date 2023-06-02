@@ -4,4 +4,5 @@ function solution(strlist) {
         answer[i] = strlist[i].length
     }
     return answer;
+    //return strlist.map((el) => el.length)
 }
