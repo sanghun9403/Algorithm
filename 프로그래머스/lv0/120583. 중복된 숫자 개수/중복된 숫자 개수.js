@@ -6,4 +6,9 @@ function solution(array, n) {
         }
     }
     return answer;
+    
+    // let Array = array.filter((item) => item === n)
+    // answer = Array.length
+
+    // return answer;
 }
