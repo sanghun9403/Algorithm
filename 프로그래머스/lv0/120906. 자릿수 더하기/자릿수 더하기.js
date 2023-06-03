@@ -4,4 +4,9 @@ function solution(n) {
     let newArr = num.split('').map(mapfn);
     let answer = newArr.reduce((acc, cur) => acc + cur, 0);
     return answer;
+    
+    // return n
+    // .toString()
+    // .split("")
+    // .reduce((acc, cur) => acc + Number(cur), 0);
 }
