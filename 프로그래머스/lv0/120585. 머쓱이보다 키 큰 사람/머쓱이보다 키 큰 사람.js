@@ -6,4 +6,7 @@ function solution(array, height) {
         }
     }
     return count;
+    
+    // var answer = array.filter(item => item > height);
+    // return answer.length;
 }
