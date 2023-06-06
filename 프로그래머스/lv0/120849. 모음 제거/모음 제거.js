@@ -5,4 +5,6 @@ function solution(my_string) {
     } else {
         return my_string.match(regExp).join("")
     }
+    
+    // return my_string.replace(/[aeiou]/g, '');
 }
