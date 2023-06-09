@@ -10,4 +10,21 @@ function solution(letter) {
     let answer = '';
     letter.split(" ").map(e => answer += morse[e])
     return answer;
+    
+    //풀이 2)
+    // for(let key in morse) {
+    // for(key of letter) {
+    // answer += morse[key];
+    // if(answer.length === letter.length) return answer;
+    // }
+    // }
+
+    //풀이 3)
+    // for(let key of letter) {
+    // for(i in morse) {
+    // if(key === i) answer += morse[i];
+    // }
+    // }
+    // return answer;
+    // }
 }
