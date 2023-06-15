@@ -1,5 +1,4 @@
 function solution(a, b) {
-    let num1 = BigInt(a)
-    let num2 = BigInt(b)
-    return (num1 + num2).toString()
+    let answer = BigInt(a) + BigInt(b)
+    return answer.toString()
 }
