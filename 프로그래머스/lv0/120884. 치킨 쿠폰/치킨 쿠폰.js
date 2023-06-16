@@ -8,4 +8,6 @@ function solution(chicken) {
     }
     
     return answer
+    // let answer = parseInt((coupon-1) / 9)
+    // return answer;
 }
